@@ -9,3 +9,6 @@ A webpage that can search OMDB for movies, and allow the user to save their favo
 - If a search result has already been nominated, disable its nominate button.
 - Display a banner when the user has 5 nominations.
 
+*Link To View It*
+https://vanesamunoz.github.io/movieNominations/
+
