@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(223, 221, 221);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.app-title {
+    font: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.searchdiv {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 80px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f0eeee;
+    padding-bottom: 5px;
+ 
+   
+}
+
+.buttonClass {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin:10px;
+    width: 50px;
+    height: 30px;
+    
+    font-size: 8px;
+}
+
+.buttonClass:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.movieTitle {
+    margin: 0px;
+    padding-top: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 90px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.1s ease-in-out;
+    transition: width 0.6s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+
+.resultclass {
+    background-color: #f0eeee;
+    width: 500px;
+}
+
+.nominationContainer  {
+    background-color: #f0eeee;
+    width: 500px;
+}
+
+.resultclass > h3 {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: center;
+}
+
+.titleforthis > h3 {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: center;
+}
