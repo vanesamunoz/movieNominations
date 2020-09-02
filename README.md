@@ -1,7 +1,7 @@
 # movieNominations
 A webpage that can search OMDB for movies, and allow the user to save their favorite films they feel should be up for nomination. When they've selected 5 nominees they should be notified they're finished.
 
-#Technical Requirements
+*Technical Requirements*
 - Search results should come from OMDB's API (free API key: http://www.omdbapi.com/apikey.aspx).
 - Each search result should list at least its title, year of release and a button to nominate that film.
 - Updates to the search terms should update the result list
